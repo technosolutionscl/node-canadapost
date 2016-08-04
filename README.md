@@ -1,9 +1,9 @@
-node-canadapost
-===============
+node-canadapost-international
+=============================
 
 A node module for integrating with Canada Post's shipping API
 
-This module is early in its development and has limited functionality. Feel free to contribute.
+This module currently only supports Rates. Feel free to contribute.
 
 
 Getting Started
@@ -11,7 +11,7 @@ Getting Started
 
 The easiest way to grab the module is through `npm`:
 
-    npm install node-canadapost-v3
+    npm install node-canadapost-international
 
 
 Pass your username, password and customer ID for the Canada Post API when requiring the library:
