@@ -11,7 +11,7 @@ Getting Started
 
 The easiest way to grab the module is through `npm`:
 
-    npm install canadapost
+    npm install node-canadapost-v3
 
 
 Pass your username, password and customer ID for the Canada Post API when requiring the library:
