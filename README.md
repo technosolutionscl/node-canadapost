@@ -36,7 +36,7 @@ Start by setting up some defaults, these can be changed any time before calling 
 Finding Rates for a Package
 ---------------------------
 
-Call the `getRatesDomestic` function and pass an object containing at least a weight and destinationPostalCode.
+Call the `getRates` function and pass an object containing at least a weight and either destinationPostalCode, destinationZipCode or destinationCountryCode.
 Optionally you can send along package dimensions (length is the longest side, width the next longest, and height the
 smallest of the sides). Weight is measured in KiloGrams and dimensions are in CentiMeters.
 
@@ -44,7 +44,7 @@ Postal codes should always be all caps with no spaces.
 
 Example:
 
-    CanadaPost.getRatesDomestic({
+    CanadaPost.getRates({
       weight: 10, // kg
       dimensions: {
         length: 64.5,
@@ -56,6 +56,11 @@ Example:
       console.log(err,rates);
     });
 
+Choose which destination to ship to by specifying either:
+
+- destinationPostalCode - Ship to Canada
+- destinationZipCode - Ship to the United States
+- destinationCountryCode - ship to any other country. Use the 2 character country code.
 
 License
 -------
