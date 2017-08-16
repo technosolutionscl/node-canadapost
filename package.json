@@ -1,21 +1,24 @@
 {
-  "name": "canadapost",
+  "name": "node-canadapost-international",
   "preferGlobal": false,
-  "version": "0.0.4",
+  "version": "0.0.12",
   "author": "Brent Luehr <brent@nerdcon.com>",
-  "description": "A wrapper for the Canada Post API to save you time",
-  "contributors": [],
+  "description": "A wrapper for the Canada Post API for dmoestic, US and international rates",
+  "contributors": [
+    "Daniel Flippance <danielflippance@hotmail.com>"
+  ],
   "scripts": {},
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "https://github.com/seratonik/node-canadapost.git"
+    "url": "https://github.com/danielflippance/node-canadapost-international.git"
   },
   "keywords": [
     "canada",
     "post",
     "shipping",
-    "postage"
+    "postage",
+    "rates"
   ],
   "dependencies": {
     "request": "~2.21.0",
