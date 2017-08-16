@@ -51,7 +51,7 @@ Example:
         width: 54.234,
         height: 12
       },
-      destinationPostalCode: 'H0H0H0'
+      destinationPostalCode: 'K1A0A6'
     }, function(err, rates) {
       console.log(err,rates);
     });
